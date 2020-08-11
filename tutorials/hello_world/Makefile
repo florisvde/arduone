@@ -13,7 +13,7 @@ sdcc_path='C:\Program Files\SDCC\bin\sdcc.exe'
 fm_path='C:\Program Files (x86)\Flash Magic\fm.exe'
 
 # In cases where del doesn't work, change 'del' to 'rm' or 'erase' or 'Remove-Item'
-remove_cmd=rm
+remove_cmd=del
 
 # This solved some problems on some machines, thanks to: https://stat545.com/make-windows.html and https://github.com/STAT545-UBC/Discussion/issues/54
 SHELL=cmd.exe
