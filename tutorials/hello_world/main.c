@@ -34,6 +34,6 @@ void sendChars(char *sz) {
 
 void main(void) {
 initSio();
-sendChars("Hello, Floris 1!");
+sendChars("Hello, World!");
 while(1);
 }
